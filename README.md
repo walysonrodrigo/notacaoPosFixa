@@ -11,7 +11,8 @@ O usuário fornece uma expressão no formato de notação pós-fixa como por exe
 - `51 13 12 * +                     R = 207`
 - `5 3 + 2 4 * + 6 7 * 1 * -        R = -26`
 
-Recebendo o resultado em seguida
+concedendo o resultado em seguida
+
 
 
 Dupla: Walyson e João Victor de Melo Barros
