@@ -8,8 +8,8 @@ Esse foi o primeiro trabalho apresentado pelo profressor Inacio Cordeiro Alves n
 
 O usuário fornece uma expressão no formato de notação pós-fixa como por exemplo: 
 
-- '51 13 12 * +                     R = 207'
-- '5 3 + 2 4 * + 6 7 * 1 * -        R = -26'
+- `51 13 12 * +                     R = 207`
+- `5 3 + 2 4 * + 6 7 * 1 * -        R = -26`
 
 Recebendo o resultado em seguida
 
