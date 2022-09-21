@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author Waly-PC
+ * @author Waly & JV
  *
  */
 module notacaoPosFixa {
