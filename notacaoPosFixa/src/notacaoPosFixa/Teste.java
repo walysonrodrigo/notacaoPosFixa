@@ -1,18 +1,17 @@
 package notacaoPosFixa;
 
+import java.util.Scanner;
+
 public class Teste {
 	public static void main(String args[]) {
-		Pilha teste = new Pilha(20);
-		teste.inserirValor(121);
-		teste.inserirValor(122);
-		teste.inserirValor(123);
-		teste.inserirValor(124);
-		teste.inserirValor(125);
-		teste.inserirValor(126);
-		Object impressao = teste.pop();
-		Object impressaao = teste.pop();
-		Object stringRetorno = teste.converteString();
-		System.out.print(impressaao);
-		System.out.print(stringRetorno);
+		
+		Calculadora calculadora = new Calculadora();
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Escreva sua expressão já em notação polênsa ou pos fixa");
+		String expressao = entrada.nextLine();
+		System.out.println("O resultado é: " + calculadora.executar(expressao)); 
+        
+		entrada.close();
 	}
 }
