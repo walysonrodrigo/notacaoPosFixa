@@ -10,6 +10,7 @@ public class Teste {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Escreva sua expressão já em notação polênsa ou pos fixa");
 		String expressao = entrada.nextLine();
+		Validacao.validar(expressao);
 		System.out.println("O resultado é: " + calculadora.executar(expressao)); 
         
 		entrada.close();
