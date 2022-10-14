@@ -1,6 +1,10 @@
 package notacaoPosFixa;
 
-public class Validacao {
+import java.util.Scanner;
+
+
+
+public class NotacaoRun {
 	public static void validar(String expressao){
         String array[] = expressao.trim().split("\\s");
         
@@ -51,6 +55,27 @@ public class Validacao {
         }
         return false;
     }
-
+	public static void main(String args[]) {
+		
+		Calculadora calculadora = new Calculadora();
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Escreva sua expressão já em notação polonêsa ou pos fixa");
+		String expressao = entrada.nextLine();
+		validar(expressao);
+		System.out.println("O resultado é: " + calculadora.executar(expressao)); 
+        
+		entrada.close();
+	}
 
 }
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
